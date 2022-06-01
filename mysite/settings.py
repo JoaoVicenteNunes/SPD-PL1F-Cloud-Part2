@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%1bv#lzb&b6y$!jw@36sz@^q&+l(5o^_@f&8(hd96$#+hf@um!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-54-242-48-48.compute-1.amazonaws.com']
 
 TINYMCE_DEFAULT_CONFIG = {
     'height': 360,
