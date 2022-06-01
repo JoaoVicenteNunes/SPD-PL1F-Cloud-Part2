@@ -17,7 +17,7 @@ from django.urls import include, path
 from . import views
 from django.contrib import admin
 
-app_name = "reservas_a68014"
+app_name = "main"
 
 urlpatterns = [
      path("",views.homepage, name="homepage"),
