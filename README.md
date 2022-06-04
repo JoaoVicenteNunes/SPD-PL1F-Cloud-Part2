@@ -1,5 +1,5 @@
 # SPD-PLF1-multi-cloud
-Github repo for multi-coud. Works with AWS, Azure and GCP.
+Github repo for multi-cloud. Works with AWS, Azure and GCP.
 
 1. Create virtualenv
 2. Create scaffolding
@@ -9,4 +9,4 @@ Github repo for multi-coud. Works with AWS, Azure and GCP.
 * requirements.txt
 * test
 
-Implements a Django app for a tutorial website.
+3. Implements a Django app for a tutorial website.
