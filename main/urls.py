@@ -16,6 +16,8 @@ Including another URLconf
 from django.urls import include, path
 from . import views
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 
 app_name = "main"
 
@@ -26,4 +28,4 @@ urlpatterns = [
      path("login/",views.login_request, name="login"),
      path('admin/', admin.site.urls),
      path("<single_slug>/", views.single_slug, name="single_slug"),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
